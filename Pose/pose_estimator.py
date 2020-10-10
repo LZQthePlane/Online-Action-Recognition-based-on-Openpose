@@ -18,7 +18,7 @@ Part_Count_Threshold = 4
 Part_Score_Threshold = 4.5
 
 PartPair = namedtuple('PartPair', ['score', 'part_idx1', 'part_idx2', 'idx1', 'idx2',
-                                   'coord1', 'coord2', 'score1', 'score2'], verbose=False)
+                                   'coord1', 'coord2', 'score1', 'score2'])
 
 
 def non_max_suppression(plain, window_size=3, threshold=NMS_Threshold):
